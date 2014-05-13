@@ -5,9 +5,9 @@
     xmlns:local="using:MotionBuilderStreamer"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Foreground="{ThemeResource ApplicationForegroundThemeBrush}">
 
-    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel>
         <StackPanel Height="56" Orientation="Horizontal">
             <TextBox x:Name="IpAddressTextBox" Margin="2,9,10,8.833" TextWrapping="Wrap" VerticalAlignment="Center" Width="158" PlaceholderText="IP address" IsTextPredictionEnabled="False"/>
             <Button x:ConnectionId='1' x:Name="StartButton" Content="Start" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,10,0"                          />
